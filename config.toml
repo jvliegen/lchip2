@@ -1,5 +1,44 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "en-uk"
+title = "Labo Geavanceerd Chipdesign"
 
 publishDir = "docs"
+
+#baseurl = "https://brainbaking.com/"
+
+theme = "hugo-theme-learn"
+
+# enableEmoji = true
+# enableRobotsTXT = true
+# pygmentsCodefences = true
+
+# for .Lastmod to work with .GitInfo: --enableGitInfo https://gohugo.io/variables/git/
+enableGitInfo = true
+
+[taxonomies]
+    tag = "tags"
+
+[params]
+    disableComments = true
+    themeVariant = "kul"
+    disableInlineCopyToClipBoard = true
+
+# see https://learn.netlify.com/en/basics/configuration/
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Author]
+  name = "Jo Vliegen"
+  email = "<i>fname</i>.<i>lname</i>A T<i>esat.kuleuven.be</i>"
+
+[[menu.shortcuts]] 
+name = "<i class='fa fa-university'></i> Toledo"
+identifier = "tol"
+url = "TODO"
+weight = 10
+
+[[menu.shortcuts]] 
+name = "<i class='fa fa-university'></i> ECTS Sheet"
+identifier = "stud"
+url = "TODO"
+weight = 1
