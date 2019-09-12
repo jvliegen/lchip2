@@ -1,5 +1,5 @@
 baseURL = "http://example.org/"
-languageCode = "en-uk"
+languageCode = "nl"
 title = "Labo Geavanceerd Chipdesign"
 
 publishDir = "docs"
@@ -40,5 +40,5 @@ weight = 10
 [[menu.shortcuts]] 
 name = "<i class='fa fa-university'></i> ECTS Sheet"
 identifier = "stud"
-url = "TODO"
+url = "https://uhintra03.uhasselt.be/studiegidswww/opleidingsonderdeel.aspx?a=2019&i=3467&n=4&t=01"
 weight = 1
